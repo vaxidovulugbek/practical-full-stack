@@ -14,6 +14,7 @@ const router = createBrowserRouter([
 ]);
 
 export const App = () => {
+  console.log('hello ulugbek');
   return (
     <trpc.Provider client={trpcClient} queryClient={queryClient}>
       <QueryClientProvider client={queryClient}>
